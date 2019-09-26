@@ -22,6 +22,45 @@ url: "https://simonellice.co.uk"
 instagram: simonellice13
 facebook: simonelliceuk
 
+# Collections
+collections_dir: gun_room
+collections:
+    glossary:
+        output: true
+    character:
+        output: true
+    place:
+        output: true
+    item:
+        output: true
+
+# Specify default template for collections
+defaults:
+  - scope:
+      path: ""
+      type: "glossary"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "character"
+    values:
+      layout: "character"
+  - scope:
+      path: ""
+      type: "place"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "item"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 # Build settings
 markdown: kramdown
 theme: minima
