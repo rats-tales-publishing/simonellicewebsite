@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<article class="character-page">
+
+  <h1 class="text-center">{{ page.title }}</h1>
+  <div class="wrapper">
+  	<div class="photo">
+  	  	<img src={{ page.photo }}>
+  	</div>
+
+  	<div class="info">
+	name: {{ page.name }}<br/>
+	age: {{ page.age }}<br/>
+	eyes: {{ page.eyes }}<br/>
+	hair: {{ page.hair }}<br/>
+	height: {{ page.height }}<br/>
+	interests: {{ page.interests }}<br/>
+	</div>
+
+	<div class="quote">
+	{{ page.quote }}
+	</div>
+	<div class="quote_author text-right"> 
+	{{ page.quote_author }}
+	</div>
+
+    <p>{{ content }}</p>
+  </div>
+
+</article>
+
+
