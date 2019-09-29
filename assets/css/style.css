@@ -1,6 +1,6 @@
 @font-face {
 	font-family:'bangla';
-	src:url('assets/fonts/bangla-mn-regular.ttf') format('truetype');
+	src:url('/assets/fonts/bangla-mn-regular.ttf') format('truetype');
 	font-style:normal
 }
 
