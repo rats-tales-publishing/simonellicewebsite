@@ -1,5 +1,11 @@
 ---
 layout: book
+name: gofast
+src: morocco
+title: "Go Fast"
+summary: "In the black, moonless night Si runs hash
+ from Morocco to Spain in Nottambulo, the fastest boat in the Western
+Med. It’s not a bad life if he can keep living it..."
 ---
 
 ![Simon Ellice Go fast map](/assets/img/morocco/go-fast-map.png)
@@ -20301,7 +20307,8 @@ In silence, we turned for home.
 
 
 
-<img src="images/gofast/simon-ellice-out-and-down.png" alt="Simon Ellice Go fast Chapter 21 Out and down">
+![Simon Ellice Go fast Chapter 21 Out and down](/assets/img/morocco/simon-ellice-out-and-down.png)
+
 ## Out and Down
 It should have been later, but it wasn’t. Less than three hours
  had passed since the chopper had picked us up at nightfall. They put us

@@ -1,4 +1,21 @@
-	That sickening feeling when I realise I've just wilfully done 
+---
+layout: book
+name: starlight
+src: jamaica
+title: "Star Light"
+summary: ">When you reach the top, the only way is... <br><br>down
+ in Port Antonio, Jamaica, where the A-list gather in their yachts, Si
+sips his drink and gazes into the eyes of one of the most beautiful
+women in the world. And she gazes back. <br><br>On the starlight waters
+of the bay, an oar splashes in the darkness and a tendril of marijuana
+smoke drifts in. In the bar, the rich and the famous make money and
+love, of a kind. <br><br>Only someone like Si would sense that there is
+danger in the night. Only someone like Si would know what to do about it
+ – if he can take his eyes of Lara for long enough."
+---
+
+
+That sickening feeling when I realise I've just wilfully done
 something stupid seems to be an unavoidable part of my life. Two men 
 silently appeared and looked at me as if I were a banknote they'd just 
 found lying on the road. I looked at them and called myself an idiot.
@@ -146,7 +163,7 @@ taking hold of my head and turning it towards her so that she could gaze
 
 
 
-![starlight](images/starlight/1.png)
+![starlight](/assets/img/jamaica/1.png)
 
 
 
@@ -339,7 +356,7 @@ It seemed like a good time to kiss her again, so I did. She kissed me back for a
 
 
 
-![starlight](images/starlight/2.png)
+![starlight](/assets/img/jamaica/2.png)
 
 
 
@@ -1460,7 +1477,7 @@ anymore. No way josé."
 
 
 
-![starlight](images/starlight/3.png)
+![starlight](/assets/img/jamaica/3.png)
 
 
 
@@ -2227,7 +2244,7 @@ I found the light switch, turned it off and then sat down beside her.
 
 
 
-![starlight](images/starlight/4.png)
+![starlight](/assets/img/jamaica/4.png)
 
 
 
@@ -2740,7 +2757,7 @@ sense. Don't you, sweetheart?"
 
 
 
-![starlight](images/starlight/5.png)
+![starlight](/assets/img/jamaica/5.png)
 
 
 
