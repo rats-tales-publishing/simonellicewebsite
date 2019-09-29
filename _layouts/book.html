@@ -2,9 +2,19 @@
 layout: default
 ---
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<div id="{{ page.name }}">
+	<div class="topBgWrapper" style="background-image: url(/assets/img/Background_top.png);">
+	<p class="summary">{{ page.summary }}</p>
+	</div>
 
-    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
-    <h4>{{ page.subtitle | escape }}</h4>
-    {{ content }}
-</article>
+	<div class="cover">
+		<img src="/assets/img/{{ page.src }}/cover.png" alt="{{ page.title }}">
+	</div>
+
+	<div class="secondBgWrapper" style="background-image: url(/assets/img/Background_bottom.png);">
+		<section class="mainText">
+	  		{{ content }}
+	  	</section>
+	</div>
+	<div class="closingBgWrapper" style="background-image: url(/assets/img/Background_very_end.png);"></div>
+</div>

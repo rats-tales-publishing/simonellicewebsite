@@ -1,5 +1,15 @@
 ---
 layout: book
+name: deadground
+src: afghanistan
+title: "Dead Ground"
+summary: "In the mountains and passes of Nuristan
+British forces hunt the Taliban. Trouble is coming, that is certain.
+Only Lieutenant Simon Ellice, with a clarity born of grief and anger,
+can see what must be done.<br><br> Dead Ground is a story of the
+impossibility of the task assigned to British soldiers in Afghanistan. A
+tale of the heroism, loyalty and individual responsibility in the chaos
+of war."
 ---
 
 
@@ -559,7 +569,7 @@ anyone?”
 “A lot, sir,” Denton said. “Two hundred at least and look, sir.”
 
 
-<p>He pointed to the village. I put the glasses on it. The light 
+He pointed to the village. I put the glasses on it. The light
 was strengthening every minute and what had just been dark spaces were 
 becoming visible. There were more people there than I expected and they 
 didn’t seem to be villagers. There was a group at the place where the 
@@ -569,7 +579,7 @@ something else…
 
 
 
-</p>“Deaks.”
+“Deaks.”
 
 
 “On it, sir.”
