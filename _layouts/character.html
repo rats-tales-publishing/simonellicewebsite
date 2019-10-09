@@ -2,32 +2,39 @@
 layout: default
 ---
 
-<article class="character-page">
+<article class="character simArticle">
 
-  <h1 class="text-center">{{ page.title }}</h1>
-  <div class="wrapper">
-  	<div class="photo">
-  	  	<img src={{ page.photo }}>
-  	</div>
-
-  	<div class="info">
-	name: {{ page.name }}<br/>
-	age: {{ page.age }}<br/>
-	eyes: {{ page.eyes }}<br/>
-	hair: {{ page.hair }}<br/>
-	height: {{ page.height }}<br/>
-	interests: {{ page.interests }}<br/>
+	<div class="topBgWrapper" style="background-image: url(/assets/img/Background_top.png);">
+		<section class="mainText">
+			<h1>{{ page.title }}</h1>
+			<div class="photo">
+				<img src={{ page.photo }}>
+			</div>
+			<div class="info">
+				name: <i>{{page.name }}</i><br/>
+				age: <i>{{page.age }}</i><br/>
+				eyes: <i>{{page.eyes }}</i><br/>
+				hair: <i>{{page.hair }}</i><br/>
+				height: <i>{{page.height }}</i><br/>
+				interests: <i>{{page.interests }}</i><br/>
+			</div>
+		</section>
 	</div>
 
-	<div class="quote">
-	{{ page.quote }}
+	<div class="secondBgWrapper" style="background-image: url(/assets/img/Background_bottom.png);">
+		<section class="mainText">
+			<div class="simArticle show">
+				<div class="quote">
+				"{{ page.quote }}"
+				</div>
+				<div class="quote_author text-right">
+				̶ {{ page.quote_author }}<br/><br/>
+				</div>
+				<div><p>{{ content }}</p></div>
+			</div>
+		</section>
 	</div>
-	<div class="quote_author text-right"> 
-	{{ page.quote_author }}
-	</div>
-
-    <p>{{ content }}</p>
-  </div>
+	<div class="closingBgWrapper" style="background-image: url(/assets/img/Background_very_end.png);"></div>
 
 </article>
 

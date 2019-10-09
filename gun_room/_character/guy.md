@@ -7,10 +7,10 @@ height: "5'11"
 interests: 'personal gain, money, cuban cigars'
 quote: "He finds people useful or convenient and that’s about it"
 quote_author: "Zara"
-photo: '/assets/img/gunroom/sam.png'
+photo: '/assets/img/gunroom/guy.png'
 ---
 
- Ruthless, manipulative and utterly amoral, he is the scorpion who stung the frog. His nature undoes him. Presented with an opportunity for personal gain, or the destruction of others he will cheat, lie and kill without self restraint.
+Ruthless, manipulative and utterly amoral, he is the scorpion who stung the frog. His nature undoes him. Presented with an opportunity for personal gain, or the destruction of others he will cheat, lie and kill without self restraint.
 
 Although outwardly relaxed and apparently lazy, Guy has a driven quality. He sees others as objects for his use. He takes his reward in life from exercising his will over it and is in a subconscious war with the world of his class and peers which has rejected him. He comes from a military background, public school, Sandhurst, the Guards, but has a fatal flaw in his character which always leads him to defeat himself by doing something for a short term gain instead of a long term win.
 
