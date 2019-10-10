@@ -40,7 +40,7 @@ defaults:
       path: ""
       type: "glossary"
     values:
-      layout: "page"
+      layout: "default"
   - scope:
       path: ""
       type: "character"
@@ -50,12 +50,12 @@ defaults:
       path: ""
       type: "place"
     values:
-      layout: "page"
+      layout: "default"
   - scope:
       path: ""
       type: "item"
     values:
-      layout: "page"
+      layout: "default"
   - scope:
       path: ""
     values:
