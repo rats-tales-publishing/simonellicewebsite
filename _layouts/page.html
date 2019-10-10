@@ -7,7 +7,12 @@ layout: default
 		<div class="topBgWrapper" style="background-image: url(/assets/img/Background_top.png);">
 			<section class="mainText">
 				<h2>{{ page.title }}</h2>
-				<h3>{{ page.subtitle }}</h3>
+				{% if page.subtitle %}
+					<h3>{{ page.subtitle }}</h3>
+				{% endif %}
+				{% if page.photo %} 
+					<img src="{{ page.photo }}" class="full-img">
+				{% endif %}
 			</section>
 		</div>
 

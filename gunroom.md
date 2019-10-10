@@ -1,10 +1,12 @@
 ---
-layout: gallery
+layout: page
 name: gunroom
 title: "Gun Room"
 subtitle: "Explore the world of Simon Ellice"
 ---
 
+
+{% for item in site.character %}
 
 <div class="character">
 <h1>{{ item.title }}</h1>
@@ -31,3 +33,4 @@ subtitle: "Explore the world of Simon Ellice"
 </div>
 
 {% endfor %}
+
