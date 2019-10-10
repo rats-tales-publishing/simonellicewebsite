@@ -15,7 +15,7 @@ html, body{
 }
 
 body, header{
-	background: url(/assets/img//bgPattern.jpg) top left repeat;
+	background: url(/assets/img/bgPattern.jpg) top left repeat;
 }
 
 ul, ol{
@@ -98,27 +98,31 @@ main{
 	position: relative;
 }
 
+h1,h2,h3{
+	text-align: center;
+}
+
 ol.nav--secondary{
-    counter-reset: item;
+	counter-reset: item;
 }
 
 ol.nav--secondary > li:before{
 	content: counter(item) " ";
-    counter-increment: item;
-    width: 20px;
-    height: 20px;
-    display: block;
-    position: absolute;
-    line-height: 29px;
-    font-size: 19px;
-    letter-spacing: -2px;
-    text-align: center;
-    padding: 2px 3px 2px 0;
-    top: 2px;
-    left: 10px;
-    border-radius: 100%;
-    color: #d1bc83;
-    border: 2px solid #d1bc83;
+	counter-increment: item;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	line-height: 29px;
+	font-size: 19px;
+	letter-spacing: -2px;
+	text-align: center;
+	padding: 2px 3px 2px 0;
+	top: 2px;
+	left: 10px;
+	border-radius: 100%;
+	color: #d1bc83;
+	border: 2px solid #d1bc83;
 }
 
 .navToggle{
@@ -177,7 +181,7 @@ ol.nav--secondary > li:before{
 
 .nav--main{
 	display: block;
-	background: url(/assets/img//bgPattern.jpg) top left repeat;
+	background: url(/assets/img/bgPattern.jpg) top left repeat;
 	border: 2px solid #e7e2c5;
 	overflow: scroll;
 	overflow-x: hidden;
@@ -304,11 +308,11 @@ nav.small .nav__logo{
 }
 
 .summary{
-    color: #d3bd84;
-    font-size: 18px;
-    max-width: 580px;
-    margin: 10px auto 0 auto;
-    padding: 0 30px;
+	color: #d3bd84;
+	font-size: 18px;
+	max-width: 580px;
+	margin: 10px auto 0 auto;
+	padding: 0 30px;
 }
 
 .character h1 {
@@ -317,18 +321,18 @@ nav.small .nav__logo{
 }
 
 .character .quote{
-    color: #d3bd84;
-    font-size: 28px;
-    font-style: italic;
-    max-width: 580px;
-    margin: 0 auto;
-    padding: 0 30px;
-    text-align: center;
+	color: #d3bd84;
+	font-size: 28px;
+	font-style: italic;
+	max-width: 580px;
+	margin: 0 auto;
+	padding: 0 30px;
+	text-align: center;
 }
 .character .quote_author{
 	margin-top: 0;
 	margin-right: 50px;
-    text-align: right;
+	text-align: right;
 }
 
 .poem{
@@ -375,28 +379,17 @@ nav.small .nav__logo{
 img.full-img {
 	width: 100%;
 	max-width: 100% !important;
-    height: 100%;
+	height: 100%;
 	max-height: 100% !important;
-}
-
-#nottambulo img:first-of-type{
-	max-width: 100%;
-	max-height: initial;
 }
 
 .mainText article img, .mainText .simArticle img {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	max-width: 300px;
-	max-height: 215px;
+	max-width: 400px;
+	max-height: 400px;
 	margin: 0 auto;
 	display: block;
-}
-
-img.bio {
-	padding-top: 0;
-	max-width: 420px !important;
-	max-height: 420px !important;
 }
 
 .mainText article p:last-of-type, .mainText .simArticle p:last-of-type{
@@ -428,12 +421,12 @@ article.show:after, .simArticle.show:after{
 
 @media all and (max-width: 1023px){
 	nav{
-	    background: url(/assets/img//bgPattern.jpg) top left repeat;
-	    padding: 10px;
-	    position: fixed;
-	    top: 0;
-	    right: 0;
-	    left: 0;
+		background: url(/assets/img//bgPattern.jpg) top left repeat;
+		padding: 10px;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
 	}
 
 	nav.small .currentChapter{
@@ -469,7 +462,7 @@ article.show:after, .simArticle.show:after{
 		width: 100%;
 	}
 	.currentChapter{
-	    width: calc(100% - 250px);
+		width: calc(100% - 250px);
 	}
 	.poem{
 		width: 320px;
@@ -531,7 +524,7 @@ article.show:after, .simArticle.show:after{
 		height: auto;
 		float: none;
 		max-width: 670px;
-		background: url(/assets/img//frame.png) 0 0 no-repeat;
+		background: url(/assets/img/frame.png) 0 0 no-repeat;
 		background-size: contain;
 	}
 
@@ -546,7 +539,7 @@ article.show:after, .simArticle.show:after{
 	nav.small .nav--framed{
 		padding: 20px 0 0 20px;
 		max-width: 135px;
-		background: url(/assets/img//frame_small.png) 0 0 no-repeat;
+		background: url(/assets/img/frame_small.png) 0 0 no-repeat;
 		background-size: contain;
 	}
 
@@ -574,7 +567,7 @@ article.show:after, .simArticle.show:after{
 	}
 
 	.currentChapter{
-		background: url(/assets/img//chapterbox.png) 0 0 no-repeat;
+		background: url(/assets/img/chapterbox.png) 0 0 no-repeat;
 		background-size: cover;
 		padding: 5px;
 		border: 1px solid #000;
@@ -614,9 +607,9 @@ article.show:after, .simArticle.show:after{
 		border: 20px solid transparent;
 		border-top: none;
 		border-bottom: none;
-		-webkit-border-image: url(/assets/img//borderSide.png) 20 round;
-		-o-border-image: url(/assets/img//borderSide.png) 20 round;
-		border-image: url(/assets/img//borderSide.png) 20 round;
+		-webkit-border-image: url(/assets/img//orderSide.png) 20 round;
+		-o-border-image: url(/assets/img/borderSide.png) 20 round;
+		border-image: url(/assets/img/borderSide.png) 20 round;
 	}
 
 	.mainText{

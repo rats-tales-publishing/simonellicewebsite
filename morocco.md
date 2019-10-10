@@ -8,7 +8,7 @@ summary: "In the black, moonless night Si runs hash
 Med. It’s not a bad life if he can keep living it..."
 ---
 
-![Simon Ellice Go fast map](/assets/img/morocco/go-fast-map.png)
+![Simon Ellice Go fast map](/assets/img/morocco/go-fast-map.png){:class="full-img"}
 
 # Go Fast
 <div class="poem">
