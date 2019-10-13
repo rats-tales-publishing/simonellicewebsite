@@ -114,7 +114,7 @@ ol.nav--secondary > li:before{
 	display: block;
 	position: absolute;
 	line-height: 29px;
-	font-size: 19px;
+	font-size: 18px;
 	letter-spacing: -2px;
 	text-align: center;
 	padding: 2px 3px 2px 0;
@@ -316,13 +316,13 @@ nav.small .nav__logo{
 }
 
 .character h1{
-	font-size: 32px;
+	font-size: 28px;
 	text-align: center;
 }
 
 .character .quote{
 	color: #d3bd84;
-	font-size: 28px;
+	font-size: 24px;
 	font-style: italic;
 	max-width: 580px;
 	margin: 0 auto;
@@ -335,9 +335,26 @@ nav.small .nav__logo{
 	text-align: right;
 }
 
+.more_link {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	border: 2px solid #d1bc83;
+	color: #d1bc83 !important;
+	text-decoration: none;
+}
+.more_link:hover {
+	background: #d1bc83;
+	color: #fff !important;
+	text-decoration: none;
+}
+
 .poem{
 	margin: 60px auto;
-	font-size: 13px;
+	font-size: 16px;
 }
 
 .cover img{
@@ -419,6 +436,16 @@ article.show, .simArticle.show{
 
 article.show:after, .simArticle.show:after{
 	display: block;
+}
+
+#gunroom h1 {
+	font-size: 36px;
+	font-style: italic;
+}
+
+#gunroom h2 {
+	font-size: 32px;
+	color: #40608a;
 }
 
 @media all and (max-width: 1023px){

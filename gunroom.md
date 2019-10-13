@@ -1,36 +1,85 @@
 ---
 layout: page
-name: gunroom
-title: "Gun Room"
-subtitle: "Explore the world of Simon Ellice"
 ---
 
 
-{% for item in site.character %}
+<div id="gunroom">
+<h1>Dead Ground</h1>
 
+---
+
+{% for item in site.glossary %}
+{% if item.category == 'afghanistan' %}
 <div class="character">
-<h1>{{ item.title }}</h1>
+<h2>Glossary</h2>
+<a class="more_link" href="{{ item.url }}" target="_blank">Read more</a>
+</div>
 <div class="photo"><img src="{{ item.photo }}"></div>
-<div class="info">
-	name: <i>{{ item.name }}</i><br/>
-	age: <i>{{ item.age }}</i><br/>
-	eyes: <i>{{ item.eyes }}</i><br/>
-	hair: <i>{{ item.hair }}</i><br/>
-	height: <i>{{ item.height }}</i><br/>
-	interests: <i>{{ item.interests }}</i><br/>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-</div>
-<div class="quote">"{{ item.quote }}"</div>
-<div class="quote_author text-right"> {{ item.quote_author }}</div>
-<div>
-	<p>&nbsp;</p>
-	<p>{{ item.content }}</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-</div>
-</div>
-
+{% endif %}
 {% endfor %}
 
+<h2>Characters</h2>
+{% for item in site.character %}
+{% if item.category == 'afghanistan' %}
+<div class="character">
+<div class="photo"><img src="{{ item.photo }}"></div>
+<h1>{{ item.title }}</h1>
+{% if item.quote %}
+<div class="quote">"{{ item.quote | truncatewords: 16 }}"</div>
+<div class="quote_author text-right">̶ {{ item.quote_author }}</div>
+{% endif %}
+<a class="more_link" href="{{ item.url }}" target="_blank">Read more</a>
+</div>
+{% endif %}
+{% endfor %}
+
+<h2>Places</h2>
+{% for item in site.place %}
+{% if item.category == 'afghanistan' %}
+<div class="character">
+<div class="photo"><img src="{{ item.photo }}"></div>
+<h1>{{ item.title }}</h1>
+{% if item.quote %}
+<div class="quote">"{{ item.quote | truncatewords: 16 }}"</div>
+<div class="quote_author text-right">̶ {{ item.quote_author }}</div>
+{% endif %}
+<a class="more_link" href="{{ item.url }}" target="_blank">Read more</a>
+</div>
+{% endif %}
+{% endfor %}
+
+<h2>Weapons & Tools</h2>
+{% for item in site.tool %}
+{% if item.category == 'afghanistan' %}
+<div class="character">
+<div class="photo"><img src="{{ item.photo }}"></div>
+<h1>{{ item.title }}</h1>
+{% if item.quote %}
+<div class="quote">"{{ item.quote | truncatewords: 16 }}"</div>
+<div class="quote_author text-right">̶ {{ item.quote_author }}</div>
+{% endif %}
+<a class="more_link" href="{{ item.url }}" target="_blank">Read more</a>
+</div>
+{% endif %}
+{% endfor %}
+
+
+<h1>Go Fast</h1>
+---
+
+<h2>Characters</h2>
+{% for item in site.character %}
+{% if item.category == 'morocco' %}
+<div class="character">
+<div class="photo"><img src="{{ item.photo }}"></div>
+<h1>{{ item.title }}</h1>
+{% if item.quote %}
+<div class="quote">"{{ item.quote | truncatewords: 16 }}"</div>
+<div class="quote_author text-right">̶ {{ item.quote_author }}</div>
+{% endif %}
+<a class="more_link" href="{{ item.url }}" target="_blank">Read more</a>
+</div>
+{% endif %}
+{% endfor %}
+
+</div>

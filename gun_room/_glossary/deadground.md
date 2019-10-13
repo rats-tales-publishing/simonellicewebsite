@@ -1,4 +1,5 @@
 ---
+category: afghanistan
 title: 'Dead Ground Glossary'
 photo: '/assets/img/gunroom/Glossary.png'
 ---
