@@ -1,4 +1,5 @@
 ---
+category: morocco
 title: Sam
 name: 'Samantha Jane Wealdon'
 age: 24

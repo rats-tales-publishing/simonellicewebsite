@@ -1,4 +1,5 @@
 ---
+category: morocco
 name: 'Guy Wealdon'
 age: 58
 eyes: Black
