@@ -315,7 +315,7 @@ nav.small .nav__logo{
 	padding: 0 30px;
 }
 
-.character h1 {
+.character h1{
 	font-size: 32px;
 	text-align: center;
 }
@@ -377,10 +377,12 @@ nav.small .nav__logo{
 }
 
 img.full-img {
-	width: 100%;
-	max-width: 100% !important;
-	height: 100%;
-	max-height: 100% !important;
+	width: auto;
+	height: auto;
+	max-width: 90% !important;
+	max-height: 500px !important;
+	margin: 0 auto 20px auto;
+	display: block;
 }
 
 .mainText article img, .mainText .simArticle img {

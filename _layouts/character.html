@@ -5,31 +5,30 @@ layout: default
 <article class="character simArticle">
 
 	<div class="topBgWrapper" style="background-image: url(/assets/img/Background_top.png);">
-		<section class="mainText">
+		<section class="mainText" markdown="1">
 			<h1>{{ page.title }}</h1>
-			<div class="photo">
-				<img src={{ page.photo }}>
-			</div>
+			<div class="photo"><img src="{{ page.photo }}" class="full-img"></div>
+			{% if page.name %}
 			<div class="info">
-				name: <i>{{page.name }}</i><br/>
-				age: <i>{{page.age }}</i><br/>
-				eyes: <i>{{page.eyes }}</i><br/>
-				hair: <i>{{page.hair }}</i><br/>
-				height: <i>{{page.height }}</i><br/>
-				interests: <i>{{page.interests }}</i><br/>
+				<ul>
+				<li>Name: <i>{{ page.name }}</i></li>
+				<li>Age: <i>{{ page.age }}</i></li>
+				<li>Eyes: <i>{{ page.eyes }}</i></li>
+				<li>Hair: <i>{{ page.hair }}</i></li>
+				<li>Height: <i>{{ page.height }}</i></li>
+				<li>interests: <i>{{ page.interests }}</i></li>
+				</ul>
 			</div>
+			{% endif %}
 		</section>
 	</div>
-
 	<div class="secondBgWrapper" style="background-image: url(/assets/img/Background_bottom.png);">
 		<section class="mainText">
 			<div class="simArticle show">
-				<div class="quote">
-				"{{ page.quote }}"
-				</div>
-				<div class="quote_author text-right">
-				̶ {{ page.quote_author }}<br/><br/>
-				</div>
+				{% if page.quote %}
+				<div class="quote">"{{ page.quote }}"</div>
+				<div class="quote_author text-right">̶ {{ page.quote_author }}<br/><br/></div>
+				{% endif %}
 				<div><p>{{ content }}</p></div>
 			</div>
 		</section>
