@@ -16,7 +16,7 @@
 title: Simon Ellice
 description: >- # this means to ignore newlines until "baseurl:"
   Noir Crime Thriller Series
-baseurl: "/simonellicewebsite" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://simonellice.co.uk"
 
 instagram: simonellice13
