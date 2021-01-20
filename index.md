@@ -5,4 +5,3 @@
 layout: none
 ---
 
-## Coming soon
